@@ -1,0 +1,46 @@
+site_name: Ayrz Wiki
+site_description: Proje dokümantasyon wikisi
+nav:
+  - Home: index.md
+  - Basics:
+      - About Wikis: basics/about-wikis.md
+      - Accessing the Wiki: basics/accessing-the-wiki.md
+      - Editing: basics/editing.md
+      - Linking: basics/linking.md
+  - Main: main.md
+  - Markdown:
+      - Markdown Syntax: markdown/markdown-syntax.md
+      - Markdown Tools: markdown/markdown-tools.md
+  - Masterclass:
+      - Diagramming: masterclass/diagramming.md
+      - Conversion: masterclass/conversion.md
+      - AsciiDoc: masterclass/asciidoc.md
+  - Resources:
+      - Wiki References: resources/wiki-references.md
+      - Wiki Practices: resources/wiki-practices.md
+theme:
+  name: material
+  language: tr
+  palette:
+    - scheme: slate
+      primary: black
+      accent: deep orange
+  font:
+    text: Space Grotesk
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.suggest
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
